@@ -2,30 +2,52 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Welcome to BakaCraft!</title>
+<title>服务器说明文档</title>
 </head>
 <style>
-html,body{height:100%}
-body{background:#A4D3EE}
-hr{margin-top:312px; margin-left:30px; margin-right:30px;}
-#container{width:960px; height:100%; overflow:hidden; margin:0 auto; background:#FFFFFF;}
-#okonano{display:block; background-image:url("https://nekorinkb.github.io/img/okonano.png"); background-size:contain; position:absolute; width:312px; height:300px; z-index:99;}
-#logo{dsplay:block; position:absolute; margin-left:312px; margin-top:40px;}
-#titles{display:block; position:absolute; margin-left:693px; margin-top:179px; text-align:right; font-size:20px; color:#BAC6FF; text-shadow:1px 1px 1px #999999; line-height:36px;}
-#link{display:inline; margin-left:0; margin-right:0; color:#FFAA33}
+body{background:#A4D3EE;}
 .p1{display:block; font-size:40px; color:#666666; position:relative; margin-left:60px; margin-right:60px; line-height:10px;}
 .p2{display:block; font-size:20px; color:#666666; position:relative; margin-left:60px; margin-right:60px;}
+.container{width:960px; height:auto; overflow:hidden; margin:0 auto; background:#FFFFFF;}
+.okonano{display:block; background-image:url("https://nekorinkb.github.io/img/okonano.png"); background-size:contain; position:absolute; width:312px; height:300px; z-index:99;}
+.logo{dsplay:block; position:absolute; margin-left:312px; margin-top:40px;}
+.title{display:block; position:absolute; margin-left:693px; margin-top:179px; text-align:right; font-size:20px; color:#BAC6FF; text-shadow:1px 1px 1px #999999; line-height:36px;}
+.hr{margin-top:330px; margin-left:30px; margin-right:30px;}
+.link{display:inline; margin-left:0; margin-right:0; color:#FFAA33;}
+.command{font-size:24px; margin-bottom:-20px;}
 </style>
 <body>
-<div id="container">
-<a id="okonano" href="https://www.pixiv.net/artworks/37192159" target="_blank" title="pid=37192159"></a>
-<img id="logo" src="https://nekorinkb.github.io/img/logo.png" width="608px">
-<p id="titles">Running by NekorinKB<br/>Supported by Pilyedes<br/>Powered by ICraft</p>
-<hr>
-<p class="p1">服务器说明文档</p>
+<div class="container">
+<a class="okonano" href="https://www.pixiv.net/artworks/37192159" target="_blank" title="pid=37192159"></a>
+<img class="logo" alt="Bakacraft" src="https://nekorinkb.github.io/img/logo.png" width="608px">
+<p class="title">Running by NekorinKB<br/>Supported by Pilyedes<br/>Powered by ICraft</p>
+<hr class="hr">
+<p class="p1">概述</p>
 <p class="p2">这是一个由NekorinKB开设并维护，在面板上运行的Minecraft服务器。截止目前 (自有统计以来，至2020-11-28) 已经运行了八个周目，总时间超过18,000个小时。我们欢迎任何品行兼优的玩家，只要你有一定mcmod基础，亦或只是对这个游戏感兴趣，都可以随时加入我们。</p>
-<p class="p2">客户端现在要加群获取&nbsp;&nbsp;<a class="p2" id="link" href="https://jq.qq.com/?_wv=1027&k=CvWkjNjo">点击加入</a></p>
-<p class="p2">modlist和更多信息待更新...</p>
+<p class="p2">客户端现在要加群获取&nbsp;&nbsp;<a class="p2 link" href="https://jq.qq.com/?_wv=1027&k=CvWkjNjo" target="_blank">点击加入</a></p>
+<p class="p2">在你加入服务器之前，建议先看一遍本文档里的内容。</p>
+<br/>
+<p class="p1">关于难度</p>
+<p class="p2">服务器使用游戏默认难度 (普通)，但由于有盖亚魔典的存在，实际生存难度要比原版高出许多。请善用小地图进行索敌和规避，你也可以使用区块卸载法来刷新附近的怪物。</p>
+<br/>
+<p class="p1">矿工须知</p>
+<p class="p2">服务器在本周目禁用了所有除格雷以外的矿石生成，你可以在地表上寻找矿粉 (晶体状) 以获取地下的矿脉信息。在游戏初期应该寻找以下几种矿脉：</p>
+<p class="p2">煤、褐煤矿脉——虽然一开始可以用木炭，但是找到煤可以让一切都变得更轻松些</p>
+<p class="p2">所有类型的铁矿脉——重要，这是往后发展的前提</p>
+<p class="p2">磁铁矿脉——其中的贵金属矿是获取黄金的主要方式</p>
+<p class="p2">石墨(钻石)矿脉——如果你运气足够好的话</p>
+<p class="p2">矿脉的生成往往十分庞大，足够你用很长时间。但由于其难找的特性，建议你在找到任何矿脉后使用小地图的导航点功能 (默认"B"键) 进行标记</p>
+<br/>
+<p class="p1">指令</p>
+<p class="p2">默认情况下，在游戏中使用"T"或"/"键打开聊天栏，区别在于，后者会自动生成一个指令所需的斜杠。正确使用指令可以让许多事情事半功倍，下面将展示一些常用指令的使用方法。</p>
+<p class="p2 command">/back</p>
+<p class="p2">嫌跑尸太麻烦？当玩家死亡或进行传送后，可以使用/back指令回到之前的地点。玩家死亡后其身上的所有物品都会安然无恙地保存在一个墓碑中，要取回它们只需将这个墓碑打碎。切记不要在死亡后使用其它传送指令，否则死亡地点将被覆盖。</p>
+<p class="p2 command">/home</p>
+<p class="p2">在服务器中每位玩家都可以设置一个传送点，只需站在你想要设置的地方输入/sethome即可。之后便能使用/home指令随时回到这个地方，或者使用/delhome home来删除已设置的传送点。你也可以传送到别人家里，语法格式为/homeother &lt;玩家名&gt; home</p>
+<p class="p2 command">/tpa</p>
+<p class="p2">一个人太孤单了？使用/tpa &lt;玩家名&gt;向某位玩家发送一条请求，对方同意后即可传送到他身边。你也可以使用/tpahere &lt;玩家名&gt;请求让某位玩家传送到你这里。为减少打扰，请不要频繁使用此指令。有时你也会收到来自其它玩家的传送请求，此时只需打开聊天栏并根据你的意愿点击相应的提示信息即可。</p>
+<p class="p2 command">/rtp</p>
+<p class="p2">出生点附近经常被过度开发。使用/rtp就可以快速传送到一定范围之外以便寻找新地方发展。该指令会耗费大量的服务器资源，请勿滥用。</p>
 </div>
 </body>
 </html>
